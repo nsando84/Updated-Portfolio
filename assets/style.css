@@ -125,7 +125,7 @@ li:hover {
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 280px;
     height: 450px;
     background-color: black !important;
@@ -166,6 +166,13 @@ li:hover {
     .content-div {
         margin-top: 0;
     }
+}
+
+.content-section {
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+    background-color: black;
 }
 
 #whoami, #contact, #current {
