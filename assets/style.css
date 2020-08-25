@@ -125,7 +125,6 @@ li:hover {
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    /* overflow: hidden; */
     width: 280px;
     height: 450px;
     background-color: black !important;
@@ -133,20 +132,23 @@ li:hover {
     margin-top: 122px;
     text-align: center;
 }
-.content-div::before {
+
+
+
+/* .content-div::before {
     content: '';
     position: absolute;
     z-index: -2;
-    left: -50%;
-    top: -50%;
-    width: 200%;
-    height: 200%;
+    left: 3%;
+    top: -100%;
+    width: 90%;
+    height: 300%;
     border: none;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0);
     background-size: 50% 50%, 50% 50%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-    background-image: linear-gradient(rgb(218, 214, 214),rgb(218, 214, 214));
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
     animation: rotate 15s linear infinite;
 }
                 
@@ -162,6 +164,8 @@ li:hover {
     border-radius: 5px;
         }
 
+         */
+
 @media (max-width: 575px) {
     .big-wrap {
         margin-top: 20px;
@@ -170,12 +174,23 @@ li:hover {
         margin-top: 0;
     }
 }
-
+.content-div::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+     
+   }
+.content-div::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: rgb(218, 214, 214);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+ 
+   }
 .content-section {
     font-size: 12px;
     width: 95%;
     margin: auto;
     background-color: black;
+    margin-bottom: 40px;
 }
 
 #whoami, #contact, #current {
