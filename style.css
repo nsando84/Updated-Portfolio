@@ -180,12 +180,12 @@ li:hover {
 }
 
 #whoami, #contact, #current {
-	font-size: 25px;
+	font-size: 18px;
 	margin-top: 15px;
 	display: none;
 }
 
 #portfolio {
-	font-size: 25px;
+	font-size: 17px;
 	margin-top: 15px;
 }
