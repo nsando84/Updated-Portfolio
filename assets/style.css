@@ -163,6 +163,9 @@ li:hover {
         }
 
 @media (max-width: 575px) {
+    .big-wrap {
+        margin-top: 20px;
+    }
     .content-div {
         margin-top: 0;
     }
